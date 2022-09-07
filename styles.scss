@@ -39,7 +39,7 @@ body {
 
         .content {
             padding: 1.225rem 1.55rem;
-
+            max-width: 21.5625rem;
             .item-category {
                 display: block;
                 font-size: 0.75rem;
@@ -154,9 +154,7 @@ body {
                 width: 80%;
             }
 
-            p {
-                width: 90%;
-            }
+             
         }
     }
 }

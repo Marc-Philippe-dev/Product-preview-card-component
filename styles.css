@@ -27,6 +27,7 @@ body .card .img .desktop-hero {
 }
 body .card .content {
   padding: 1.225rem 1.55rem;
+  max-width: 21.5625rem;
 }
 body .card .content .item-category {
   display: block;
@@ -121,8 +122,5 @@ body .attribution a {
   }
   body .card h1 {
     width: 80%;
-  }
-  body .card p {
-    width: 90%;
   }
 }/*# sourceMappingURL=styles.css.map */
