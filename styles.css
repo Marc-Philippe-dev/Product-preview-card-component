@@ -7,6 +7,11 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   background-color: hsl(30deg, 38%, 92%);
   font-family: "Montserrat", sans-serif;
   font-size: 0.875rem;
@@ -17,17 +22,17 @@ body .card {
   border-radius: 0.75rem;
   background-color: hsl(0deg, 0%, 100%);
 }
-body .card .img .mobile-hero {
+body .card .hero .mobile {
+  display: block;
   max-width: 21.5625rem;
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
-body .card .img .desktop-hero {
+body .card .hero .desktop {
   display: none;
 }
 body .card .content {
   padding: 1.225rem 1.55rem;
-  max-width: 21.5625rem;
 }
 body .card .content .item-category {
   display: block;
@@ -105,14 +110,14 @@ body .attribution a {
     grid-template-columns: 1fr 1fr;
     max-width: 610px;
   }
-  body .card .img .desktop-hero {
+  body .card .hero .desktop {
     display: block;
     width: 100%;
     height: 100%;
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
   }
-  body .card .img .mobile-hero {
+  body .card .hero .mobile {
     display: none;
   }
   body .card .content {
